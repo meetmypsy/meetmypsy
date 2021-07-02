@@ -1,0 +1,7 @@
+home_page.home:
+  path: '/home'
+  defaults:
+    _controller: '\Drupal\home_page\Controller\Home::build'
+    _title: 'Home page'
+  requirements:
+    _permission: 'access content'

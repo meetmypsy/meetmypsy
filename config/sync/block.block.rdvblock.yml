@@ -1,0 +1,23 @@
+uuid: 06009c7c-d8fe-4a4a-ae51-2176797867a6
+langcode: fr
+status: true
+dependencies:
+  module:
+    - home_page
+  theme:
+    - psy
+id: rdvblock
+theme: psy
+region: header
+weight: -7
+provider: null
+plugin: rdv
+settings:
+  id: rdv
+  label: 'Rdv block'
+  provider: home_page
+  label_display: '0'
+  rdv:
+    value: "<p><img alt=\"calendar\" src=\"/themes/custom/psy/images/calendar_rdv.png\" />&nbsp; <a href=\"/praticiens\">Prendre rendez-vous</a></p>\r\n"
+    format: full_html
+visibility: {  }

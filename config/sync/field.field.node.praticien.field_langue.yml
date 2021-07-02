@@ -1,0 +1,21 @@
+uuid: 0131e0c7-a5f3-43ba-8398-c8813cd17d70
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_langue
+    - node.type.praticien
+  module:
+    - options
+id: node.praticien.field_langue
+field_name: field_langue
+entity_type: node
+bundle: praticien
+label: Langue
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

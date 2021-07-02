@@ -1,0 +1,147 @@
+uuid: f3c7fa08-6f49-43d4-8695-6aa2e056c4d5
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_expertise
+field_name: field_expertise
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: abussexuels
+      label: 'Abus sexuels'
+    -
+      value: accidentdome
+      label: 'Accident domestique/ de la route/ handicap'
+    -
+      value: addictions
+      label: Addictions
+    -
+      value: burnoutboreo
+      label: 'Burn-out, bore-out'
+    -
+      value: changementdo
+      label: 'Changement d''organisation du travail'
+    -
+      value: chomage
+      label: Chômage
+    -
+      value: conflitsetpr
+      label: 'Conflits et problèmes familiaux/ relations toxiques'
+    -
+      value: crisesdangoi
+      label: 'Crises d''angoisse/ Gestion de l''anxiété'
+    -
+      value: crisesdecoup
+      label: 'Crises de couple/ Problèmes sexuels'
+    -
+      value: crisesdevie
+      label: 'Crises de vie'
+    -
+      value: demotivation
+      label: Démotivation
+    -
+      value: departalaret
+      label: 'Départ à la retraite'
+    -
+      value: dependanceaf
+      label: 'Dépendance affective'
+    -
+      value: depressionte
+      label: 'Dépression/ tentative de suicide'
+    -
+      value: deuil
+      label: Deuil
+    -
+      value: developpemen
+      label: 'Développement de la créativité'
+    -
+      value: difficulteas
+      label: 'Difficulté à se faire des relations'
+    -
+      value: 'difficulted'''
+      label: 'Difficulté d''engagement'
+    -
+      value: difficultede
+      label: 'Difficulté de communication'
+    -
+      value: educationdes
+      label: 'Éducation des enfants/ Décrochage scolaire'
+    -
+      value: endettement
+      label: Endettement
+    -
+      value: equilibrevie
+      label: 'Équilibre vie personnelle et professionnelle'
+    -
+      value: gestiondesem
+      label: 'Gestion des émotions, colère, honte, jalousie'
+    -
+      value: harcelement
+      label: Harcèlement
+    -
+      value: hautpotentie
+      label: 'Haut potentiel'
+    -
+      value: hyperconnexi
+      label: 'Hyper connexion'
+    -
+      value: insecuriteli
+      label: 'Insécurité liée à une épidémie'
+    -
+      value: lgbtorientat
+      label: 'LGBT, orientation sexuelle, question de genre'
+    -
+      value: maladie
+      label: Maladie
+    -
+      value: mauvaiseesti
+      label: 'Mauvaise estime de soi'
+    -
+      value: phobies
+      label: Phobies
+    -
+      value: problemedech
+      label: 'Problème de choix'
+    -
+      value: quetedesens
+      label: 'Quête de sens'
+    -
+      value: retourdexpat
+      label: 'Retour d''expatriation'
+    -
+      value: rupturesdivo
+      label: 'Ruptures, divorce, séparation/ Adultère'
+    -
+      value: scenariosder
+      label: 'Scénarios de répétition'
+    -
+      value: solitude
+      label: Solitude
+    -
+      value: stressautrav
+      label: 'Stress au travail'
+    -
+      value: surmenagepar
+      label: 'Surmenage parental'
+    -
+      value: traumatisme
+      label: Traumatisme
+    -
+      value: troublesalim
+      label: 'Troubles alimentaires'
+    -
+      value: violencevict
+      label: 'Violence, victimes de violences'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

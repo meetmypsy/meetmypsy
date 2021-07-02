@@ -1,0 +1,30 @@
+uuid: 19b73c6e-c957-44ba-8ad9-36c48d016298
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_type
+field_name: field_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: psycho
+      label: Psychothérapeute
+    -
+      value: coach
+      label: Coach
+    -
+      value: sophro
+      label: Sophrologue
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,17 @@
+uuid: d31b8e43-6f6d-486a-8678-2112840b9639
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Praticien
+type: praticien
+description: 'Ajouter un praticien'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

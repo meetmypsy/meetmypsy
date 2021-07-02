@@ -1,0 +1,21 @@
+uuid: be3569ce-76df-4882-af41-7530091969e0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_expertise
+    - node.type.praticien
+  module:
+    - options
+id: node.praticien.field_expertise
+field_name: field_expertise
+entity_type: node
+bundle: praticien
+label: Expertise
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

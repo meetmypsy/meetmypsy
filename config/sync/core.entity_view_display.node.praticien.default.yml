@@ -1,0 +1,83 @@
+uuid: a8528dd8-8ac9-4fea-bc4f-c36101e5b02f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.praticien.body
+    - field.field.node.praticien.field_calendarly_token
+    - field.field.node.praticien.field_expertise
+    - field.field.node.praticien.field_langue
+    - field.field.node.praticien.field_photo
+    - field.field.node.praticien.field_type
+    - node.type.praticien
+  module:
+    - calendarly
+    - field_layout
+    - layout_builder
+    - options
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.praticien.default
+targetEntityType: node
+bundle: praticien
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_calendarly_token:
+    weight: 7
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: calendarly_widget
+    region: content
+  field_expertise:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_langue:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_photo:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_type:
+    weight: 8
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

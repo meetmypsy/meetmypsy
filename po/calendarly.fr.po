@@ -1,0 +1,148 @@
+# $Id$
+#
+# French translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  calendarly.info.yml: n/a
+#  calendarly.routing.yml: n/a
+#  calendarly.links.menu.yml: n/a
+#  src/Form/CsvExportForm.php: n/a
+#  calendarly.permissions.yml: n/a
+#  config/schema/calendarly.schema.yml: n/a
+#  src/Form/QuestionsForm.php: n/a
+#  src/Form/TestForm.php: n/a
+#  src/Plugin/Field/FieldFormatter/CalendarlyWidgetFormatter.php: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2021-06-11 15:12+0200\n"
+"PO-Revision-Date: 2021-06-11 15:12+0200\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: French <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: calendarly.info.yml:0 calendarly.routing.yml:0
+msgid "Calendarly"
+msgstr "Calendarly"
+
+#: calendarly.links.menu.yml:0
+msgid "Calendly"
+msgstr "Calendly"
+
+#: calendarly.links.menu.yml:0 src/Form/CsvExportForm.php:110
+msgid "Practitioners"
+msgstr "Praticiens"
+
+#: calendarly.links.menu.yml:0 calendarly.routing.yml:0
+msgid "Export Csv"
+msgstr "Export Csv"
+
+#: calendarly.links.menu.yml:0
+msgid "Calendly questions"
+msgstr "Questions Calendly"
+
+#: calendarly.links.menu.yml:0
+msgid "Calendly test"
+msgstr "Test Calendly"
+
+#: calendarly.permissions.yml:0
+msgid "Export Calendarly data"
+msgstr "Exporter les données de Calendarly"
+
+#: calendarly.permissions.yml:0
+msgid "use to export calendarly data"
+msgstr "utiliser pour exporter les données de calendarly"
+
+#: calendarly.permissions.yml:0
+msgid "Access Calendarly data"
+msgstr "Accès aux données Calendarly"
+
+#: calendarly.permissions.yml:0
+msgid "use to access calendarly data"
+msgstr "utiliser pour accéder aux données de calendarly"
+
+#: calendarly.routing.yml:0 config/schema/calendarly.schema.yml:0
+msgid "Calendarly questions"
+msgstr "Questions Calendarly"
+
+#: calendarly.routing.yml:0
+msgid "Calendarly test"
+msgstr "Test Calendarly"
+
+#: config/schema/calendarly.schema.yml:0
+msgid "Calendarly questions for csv export"
+msgstr "Questions Calendarly pour l'export csv"
+
+#: config/schema/calendarly.schema.yml:0
+msgid "Question"
+msgstr "Question"
+
+#: src/Form/CsvExportForm.php:101
+msgid "No Practitioner file is published yet"
+msgstr "Aucune fiche praticien n'est encore publiée"
+
+#: src/Form/CsvExportForm.php:118
+msgid "Export csv"
+msgstr "Export csv"
+
+#: src/Form/QuestionsForm.php:56
+msgid "Questions for calendarly csv export"
+msgstr "Questions pour l'export csv de calendarly"
+
+#: src/Form/QuestionsForm.php:63
+msgid "Question %i"
+msgstr "Question %i"
+
+#: src/Form/QuestionsForm.php:73
+msgid "Add one more question"
+msgstr "Ajouter une autre question"
+
+#: src/Form/QuestionsForm.php:88
+msgid "Remove last question"
+msgstr "Supprimer la dernière question"
+
+#: src/Form/QuestionsForm.php:101
+msgid "Submit"
+msgstr "Soumettre"
+
+#: src/Form/TestForm.php:86
+msgid "Token"
+msgstr "Jeton"
+
+#: src/Form/TestForm.php:94
+msgid "Type"
+msgstr "Type"
+
+#: src/Form/TestForm.php:98
+msgid "User"
+msgstr "Utilisateur"
+
+#: src/Form/TestForm.php:99
+msgid "Events"
+msgstr "Événements"
+
+#: src/Form/TestForm.php:100
+msgid "Participants of first event"
+msgstr "Participants aux premier événement"
+
+#: src/Form/TestForm.php:101
+msgid "Event types"
+msgstr "Types d'événements"
+
+#: src/Form/TestForm.php:106
+msgid "Test"
+msgstr "Test"
+
+#: src/Plugin/Field/FieldFormatter/CalendarlyWidgetFormatter.php:81
+msgid "Displays the calendarly widget."
+msgstr "Affiche le widget Calendarly"
+
+#: src/Plugin/Field/FieldFormatter/CalendarlyWidgetFormatter.php:13
+msgid "Calendarly Widget"
+msgstr "Widget Calendarly"
+

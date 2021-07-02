@@ -1,0 +1,10 @@
+uuid: 8636a534-d4db-4ffb-9818-e433353d1b2f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media
+id: media.listing
+label: listing
+targetEntityType: media
+cache: true

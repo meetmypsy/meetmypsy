@@ -1,0 +1,15 @@
+uuid: 0916921c-d7ce-44e8-b96b-de70c29d2623
+name: MeetMyPsy
+mail: admin@example.com
+slogan: 'Coaching & Thérapie d''entreprise'
+page:
+  403: ''
+  404: ''
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+mail_notification: ''

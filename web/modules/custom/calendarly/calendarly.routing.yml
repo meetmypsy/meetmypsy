@@ -1,0 +1,29 @@
+calendarly.overview:
+  path: '/calendly'
+  defaults:
+    _controller: '\Drupal\calendarly\Controller\Calendarly::overview'
+    _title: 'Calendarly'
+  requirements:
+    _permission: 'administer site configuration'
+calendarly.csv_export:
+  path: '/calendly/export'
+  defaults:
+    _form: '\Drupal\calendarly\Form\CsvExportForm'
+    _title: 'Export Csv'
+  requirements:
+    _permission: 'export calendarly data'
+calendarly.questions:
+  path: '/calendly/questions'
+  defaults:
+    _form: '\Drupal\calendarly\Form\QuestionsForm'
+    _title: 'Calendarly questions'
+  requirements:
+    _permission: 'administer site configuration'
+calendarly.test:
+  path: '/calendly/test'
+  defaults:
+    _form: '\Drupal\calendarly\Form\TestForm'
+    _title: 'Calendarly test'
+  requirements:
+    _permission: 'access calendarly data'
+        

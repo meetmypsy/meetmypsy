@@ -1,0 +1,32 @@
+calendarly.overview:
+  title: 'Calendly'
+  route_name: calendarly.overview
+  parent: system.admin
+  weight: 0
+calendarly.practitioners:
+  title: 'Practitioners'
+  route_name: view.praticiens.page_1
+  parent: calendarly.overview
+  weight: 1
+calendarly.csv_export:
+  title: 'Export Csv'
+  route_name: calendarly.csv_export
+  parent: calendarly.overview
+  weight: 2
+calendarly.questions:
+  title: 'Calendly questions'
+  route_name: calendarly.questions
+  parent: calendarly.overview
+  weight: 3
+calendarly.test:
+  title: 'Calendly test'
+  route_name: calendarly.test
+  parent: calendarly.overview
+  weight: 4
+
+
+
+  
+  
+  
+  

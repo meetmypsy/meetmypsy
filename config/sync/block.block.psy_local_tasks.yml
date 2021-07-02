@@ -1,0 +1,22 @@
+uuid: 32d20a66-6427-4768-a45d-672fc1688906
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - psy
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: psy_local_tasks
+theme: psy
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: 21742cac-a527-47f6-9346-d24f591f8c56
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.praticien
+id: node.praticien.title
+field_name: title
+entity_type: node
+bundle: praticien
+label: 'Nom et Prénom'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

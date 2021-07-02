@@ -1,0 +1,10 @@
+export calendarly data:
+  title: 'Export Calendarly data'
+  description: 'use to export calendarly data'
+  restrict access: true
+access calendarly data:
+  title: 'Access Calendarly data'
+  description: 'use to access calendarly data'
+  restrict access: true
+
+

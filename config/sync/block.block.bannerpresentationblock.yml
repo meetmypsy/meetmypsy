@@ -1,0 +1,29 @@
+uuid: 5f00365f-9800-4762-a001-9c39696eb033
+langcode: fr
+status: true
+dependencies:
+  module:
+    - home_page
+    - system
+  theme:
+    - psy
+id: bannerpresentationblock
+theme: psy
+region: featured_top
+weight: -8
+provider: null
+plugin: banner_presentation
+settings:
+  id: banner_presentation
+  label: 'Banner presentation block'
+  provider: home_page
+  label_display: '0'
+  quote: '"Parce que l''âme est plaçée dans le corps comme un diamant brut, et doit être polie pour qu’elle brille"'
+  description:
+    value: "<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>MEETMYPSY</strong> vous propose des professionnels expérimentés en psychothérapie, en coaching et en sophrologie pour accompagner vos salariés dans leurs moments difficiles.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Notre vision </strong>est de renforcer l’engagement et le plaisir au travail en dénouant les blocages personnels qui impactent la vie au travail.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Notre mission </strong>est de transformer en douceur pour surpasser les obstacles psychologiques afin d’obtenir une performance optimale au travail et une sérénité quotidienne.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Notre raison d'être </strong>est de rendre l’institution efficace collectivement et individuellement; promouvoir une culture saine au sein de l’entreprise et stimuler la performance via la réconciliation personnelle.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Nos valeurs</strong> sont: Confidentialité, individualité de l’approche, accompagnement sur mesure, atteindre le bien-être, technicité et savoir-faire de différentes méthodologies, humilité et authenticité.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>MEETMYPSY c'est la transformation en profondeur et pérenne du comportement et du bien-être au travail&nbsp;</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+    format: full_html
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

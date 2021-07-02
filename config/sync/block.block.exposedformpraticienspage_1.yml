@@ -1,0 +1,28 @@
+uuid: be5b0b90-ddba-46d8-9902-f9a196169ed6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.praticiens
+  module:
+    - system
+    - views
+  theme:
+    - psy
+id: exposedformpraticienspage_1
+theme: psy
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:praticiens-page_1'
+settings:
+  id: 'views_exposed_filter_block:praticiens-page_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: 'Filtrer par :'
+visibility:
+  request_path:
+    id: request_path
+    pages: /praticiens
+    negate: false

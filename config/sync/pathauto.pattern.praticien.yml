@@ -1,0 +1,22 @@
+uuid: d0a58556-8565-48c1-bb72-8f85d7260447
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: praticien
+label: Praticien
+type: 'canonical_entities:node'
+pattern: 'praticien/[node:title]'
+selection_criteria:
+  fb148191-9398-4150-ae7b-e6225bb82232:
+    id: node_type
+    bundles:
+      praticien: praticien
+    negate: false
+    context_mapping:
+      node: node
+    uuid: fb148191-9398-4150-ae7b-e6225bb82232
+selection_logic: and
+weight: -5
+relationships: {  }

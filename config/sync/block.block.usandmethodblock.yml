@@ -1,0 +1,33 @@
+uuid: 3488cc18-fb8a-41f8-ac8a-0e9c189d8b6b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - home_page
+    - system
+  theme:
+    - psy
+id: usandmethodblock
+theme: psy
+region: content
+weight: -2
+provider: null
+plugin: us_and_method
+settings:
+  id: us_and_method
+  label: 'Us and Method block'
+  provider: home_page
+  label_display: '0'
+  who_we_are_title: 'Qui sommes-nous ?'
+  who_we_are_description:
+    value: "<p><strong>MEETMYPSY </strong>a rallié des professionnels expérimentés en psychothérapie,&nbsp;en coaching et en sophrologie pour <strong>être à l'écoute</strong> et <strong>accompagner </strong>en profondeur vos salariés dans leurs moments difficiles.</p>\r\n\r\n<p>Diplômés d’un titre de <strong>psycho-praticien</strong>, de <strong>psychothérapeute,&nbsp;</strong>de <strong>coaching</strong>, ou de <strong>sophrologie </strong>ce sont des professionnels du monde de l’entreprise convertis à la <strong>psychothérapie</strong>.</p>\r\n\r\n<p>Nous avons été formés à oser dire les choses, même les plus dérangeantes, tout en prenant soin.<br />\r\nNous savons aussi bousculer lorsqu’il s’agit de prendre sa responsabilité ou pour amorcer un changement.</p>\r\n\r\n<p>Nous ne portons pas de jugement et nous accueillons ce qui est là et maintenant.</p>\r\n\r\n<p>Ainsi, notre accompagnement permet la création de “sur-mesure” avec le collaborateur. Il n’est plus seul face à ses difficultés, il peut prendre appui pour grandir.</p>\r\n<img alt=\"Nos marques\" data-align=\"center\" data-entity-type=\"file\" data-entity-uuid=\"b2a8c1f1-092d-40dc-a9a0-e2dc7c155dae\" src=\"/sites/default/files/inline-images/LogoMM.jpg\" />\r\n<p>&nbsp;</p>\r\n"
+    format: full_html
+  our_method_title: 'Nos expertises'
+  our_method_description:
+    value: '<img alt="expertises" data-align="center" data-entity-type="file" data-entity-uuid="7804061b-40de-46fd-b8e0-ff858d877ebc" src="/sites/default/files/inline-images/expertises.jpg" />'
+    format: full_html
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

@@ -1,0 +1,45 @@
+uuid: 987e70a8-db2d-41da-84f0-107cb3cdd608
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_langue
+field_name: field_langue
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: allemand
+      label: Allemand
+    -
+      value: anglais
+      label: Anglais
+    -
+      value: arabe
+      label: Arabe
+    -
+      value: espagnol
+      label: Espagnol
+    -
+      value: francais
+      label: Français
+    -
+      value: italien
+      label: Italien
+    -
+      value: russe
+      label: Russe
+    -
+      value: serbe
+      label: Serbe
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

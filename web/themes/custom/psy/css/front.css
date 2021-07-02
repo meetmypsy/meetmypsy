@@ -1,0 +1,102 @@
+
+
+
+#block-bannerpresentationblock .quote{
+  color: black;
+  font-size: 21px;
+  height: 500px;
+  line-height: 475px;
+  font-style: italic;
+  background: url("../images/super.jpg");
+  font-family: georgia;
+
+}
+#block-bannerpresentationblock .desc{
+  margin-top: 10px;
+  padding: 5px 20%;
+  text-align: left;
+}
+
+#block-howitworksblock{
+  padding: 5px 30%;
+  background: #524fa0; 
+}
+#block-howitworksblock h3{
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  padding: 15px 0;
+}
+#block-howitworksblock ul li{
+  background-color: #dfc7f2;
+  margin-bottom: 35px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 30px;
+}
+#block-howitworksblock ul li:not(:last-child):after{
+  content: url("../images/flecherose.png");
+  display: block;
+  position: absolute;
+  padding: 10px;
+  left:49%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+#block-usandmethodblock .content{
+  margin-top: 0;
+}
+#block-usandmethodblock .our-method{
+  padding: 5px 20%;
+  padding-bottom: 40px;
+}
+#block-usandmethodblock h3{
+  text-align: center;
+  font-size: x-large;
+  padding: 15px 0; 
+}
+#block-usandmethodblock .who-we-are{
+  padding: 5px 20%;
+  padding-bottom: 40px;
+}
+#block-usandmethodblock .our-method-description ul,
+#block-usandmethodblock .who-we-are-description ul{
+  list-style: none;
+}
+
+#block-usandmethodblock .our-method-description li::before,
+#block-usandmethodblock .who-we-are-description ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #524fa0; 
+  display: inline-block;
+  margin-right:5px;
+  font-size: xx-large;
+  vertical-align: -5px;
+}
+
+#main{
+  margin-top: 0;
+}
+
+.featured-top{
+  padding: 0;
+  text-shadow: none;
+  border: none;
+}
+.featured-top aside{
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+}
+
+#main-wrapper{
+  margin-left: 0;
+  margin-right: 0;
+}
+#main-wrapper #main #content section{
+  padding-left: 0;
+  padding-right: 0;
+}
+#main-wrapper.layout-container {
+  max-width: 100%;
+}

@@ -1,0 +1,6 @@
+all_questions:
+  - Âge
+  - 'Situation familiale'
+_core:
+  default_config_hash: mjPlpMQMRwlDacoAMszG-OdZ4X6E7E6VBZFBO3IuxMg
+langcode: fr

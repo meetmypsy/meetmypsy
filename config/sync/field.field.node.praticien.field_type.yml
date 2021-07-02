@@ -1,0 +1,23 @@
+uuid: 426e063e-d808-408d-a062-1ff47c8c08c4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type
+    - node.type.praticien
+  module:
+    - options
+id: node.praticien.field_type
+field_name: field_type
+entity_type: node
+bundle: praticien
+label: Type
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: psycho
+default_value_callback: ''
+settings: {  }
+field_type: list_string

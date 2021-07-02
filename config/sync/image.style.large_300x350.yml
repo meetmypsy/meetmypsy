@@ -1,0 +1,15 @@
+uuid: 2f10ca35-ef8a-4cdb-821f-aa05367019c3
+langcode: fr
+status: true
+dependencies: {  }
+name: large_300x350
+label: large(300x350)
+effects:
+  946b10a7-9dd5-4da8-a8ad-82221a53fa1f:
+    uuid: 946b10a7-9dd5-4da8-a8ad-82221a53fa1f
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 300
+      height: 350
+      anchor: center-center

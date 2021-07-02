@@ -1,0 +1,11 @@
+uuid: bc2e1b56-e7fa-4445-9c8e-b252b3e26467
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.praticien
+id: node.praticien
+target_entity_type_id: node
+target_bundle: praticien
+default_langcode: site_default
+language_alterable: false

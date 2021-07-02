@@ -1,0 +1,23 @@
+uuid: d4b9a293-144f-4d9b-bc0f-6dade7f32e39
+langcode: fr
+status: true
+dependencies:
+  module:
+    - home_page
+  theme:
+    - psy
+id: footerblock
+theme: psy
+region: footer_fifth
+weight: 0
+provider: null
+plugin: footer
+settings:
+  id: footer
+  label: 'Footer block'
+  provider: home_page
+  label_display: '0'
+  footer:
+    value: "<p>MEETMYPSY est à l’écoute de vos collaborateurs en tout anonymat et confidentialité<br />\r\nNous sommes soumis au secret Professionnel<br />\r\nL'identité du collaborateur est anonyme<br />\r\nLe contenu des échanges est confidentiel</p>\r\n\r\n<p>Téléphone: 06 31 06 40 67<br />\r\nContact : <a href=\"mailto:stephanie.lautecaze@meetmypsy.com\">Stéphanie Lautecaze</a></p>\r\n"
+    format: full_html
+visibility: {  }

@@ -1,0 +1,19 @@
+uuid: cfa54e7b-7835-48e8-8e93-94547d991add
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_calendarly_token
+    - node.type.praticien
+id: node.praticien.field_calendarly_token
+field_name: field_calendarly_token
+entity_type: node
+bundle: praticien
+label: 'Calendarly Token'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

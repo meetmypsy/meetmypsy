@@ -1,0 +1,32 @@
+uuid: 37d37be5-1671-44f1-ad3f-bb7cd5326935
+langcode: fr
+status: true
+dependencies:
+  module:
+    - home_page
+    - system
+  theme:
+    - psy
+id: howitworksblock
+theme: psy
+region: content
+weight: -3
+provider: null
+plugin: how_it_works
+settings:
+  id: how_it_works
+  label: 'How it Works block'
+  provider: home_page
+  label_display: '0'
+  title: 'Comment ça marche ?'
+  steps: null
+  step1: 'Votre collaborateur rentre le code d’entreprise sur la plateforme donnant accès aux psychothérapeutes / coachs / sophrologues.'
+  step2: 'Le collaborateur sélectionne le profil du praticien qui lui correspond en fonction des expertises et réserve sa séance sur son agenda.'
+  step3: 'Le praticien valide le rdv par lien visioconférence au jour et l’heure réservés.'
+  step4: 'L''approche thérapeutique de meetmypsy encourage l''expression du collaborateur tout en restant centré sur son ressenti et ses besoins. '
+  step5: 'Le collaborateur a la possibilité de poursuivre sa thérapie en dehors de la plateforme une fois que les séances offertes par l’entreprise sont accomplies.'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

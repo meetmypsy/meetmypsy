@@ -1,0 +1,26 @@
+uuid: ce1605aa-02ac-4fbd-9657-0a6d9c9246bc
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psy
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: psy_page_title
+theme: psy
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/praticien/*"
+    negate: true

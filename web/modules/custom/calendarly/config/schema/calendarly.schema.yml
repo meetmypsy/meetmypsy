@@ -1,0 +1,10 @@
+calendarly.questions:
+  type: config_object
+  label: 'Calendarly questions'
+  mapping:
+    all_questions:
+      type: sequence
+      label: 'Calendarly questions for csv export'
+      sequence:
+        type: string
+        label: 'Question'

@@ -1,0 +1,39 @@
+<?php
+
+use Drupal\views\ViewExecutable;
+
+/**
+* Implements hook_views_pre_render().
+*/
+function psy_views_pre_render(ViewExecutable $view) {
+  if (isset($view) && ($view->storage->id() == 'praticiens')) {
+    $view->element['#attached']['library'][] = 'psy/praticiens-page-view';
+  }
+}
+
+/**
+ * Implements template_preprocess_block().
+ */
+function psy_preprocess_block(&$variables) {
+  if (isset($variables['elements']['#id']) && $variables['elements']['#id'] == 'exposedformpraticienspage_1') {
+    $variables['#attached']['library'][] = 'psy/praticiens-exposed-form';
+  }
+}
+
+/**
+ * Implements template_preprocess_page().
+ */
+function psy_preprocess_page(&$variables) {
+  if ($variables['is_front']) {
+    $variables['#attached']['library'][] = 'psy/front';
+  }
+}
+
+/**
+ * Implements template_preprocess_node().
+ *
+ * @param type $variables
+ */
+function psy_preprocess_node__praticien__full(&$variables) {
+  $variables['#attached']['library'][] = 'psy/praticien-profil';
+}

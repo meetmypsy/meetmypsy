@@ -1,0 +1,22 @@
+uuid: 63ec182b-ec9b-4a3a-9e00-f176ce232ba5
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psy
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: psy_content
+theme: psy
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: c8dca9ff-20da-4acb-9845-3f8652374cac
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psy
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: psy_breadcrumbs
+theme: psy
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''ariane'
+  provider: system
+  label_display: '0'
+visibility: {  }

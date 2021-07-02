@@ -1,0 +1,6 @@
+web/sites/default/files/
+web/sites/default/settings.local.php
+web/sites/default/services.yml
+nbproject
+scripts/mysql_config
+web/drush/

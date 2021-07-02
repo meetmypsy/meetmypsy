@@ -1,0 +1,22 @@
+uuid: 7e38f4c2-21de-4627-ad3c-9e1ffcf05ad8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.praticien
+id: node.praticien.promote
+field_name: promote
+entity_type: node
+bundle: praticien
+label: 'Promu en page d''accueil'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

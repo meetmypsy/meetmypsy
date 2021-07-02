@@ -1,0 +1,38 @@
+{#
+/**
+ * @file
+ * overrides bartik/templates/node.html.twig
+#}
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+    'clearfix',
+  ]
+%}
+{{ attach_library('bartik/classy.node') }}
+{{ attach_library('psy/praticiens-listing-view-mode') }}
+<article{{ attributes.addClass(classes) }}>
+
+  <div class='praticien-data'>
+    <div class='clearfix' >
+      {{ content.field_photo }}
+    </div>
+    <h2 class='clearfix' >
+      {{ label }}
+    </h2>
+    {{ content.field_langue }}
+    {% if node.field_type.value %}
+      {{ content.field_type }}
+    {% endif %}
+    {{ content.field_expertise }}
+  </div>
+  <div class='seemore clearfix'>
+    <a href="{{ url }}"  rel="bookmark">{{ 'Make an appointment' | t }}</a>
+  </div>
+
+</article>

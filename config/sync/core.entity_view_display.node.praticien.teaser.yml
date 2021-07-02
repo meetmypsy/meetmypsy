@@ -1,0 +1,85 @@
+uuid: 4bb7c9e0-0fdd-4ba3-8ea8-4aabb4535c46
+langcode: fr
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.praticien.body
+    - field.field.node.praticien.field_calendarly_token
+    - field.field.node.praticien.field_expertise
+    - field.field.node.praticien.field_langue
+    - field.field.node.praticien.field_photo
+    - field.field.node.praticien.field_type
+    - node.type.praticien
+  module:
+    - field_layout
+    - layout_builder
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          af35e0ca-1cc6-4b97-bc68-186e556b38db:
+            uuid: af35e0ca-1cc6-4b97-bc68-186e556b38db
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:praticien:field_photo'
+              formatter:
+                type: entity_reference_entity_view
+                label: hidden
+                settings:
+                  view_mode: listing
+                  link: false
+                third_party_settings: {  }
+            additional: {  }
+            weight: 0
+          8ff8abad-80a7-4962-8364-e0438b0576e5:
+            uuid: 8ff8abad-80a7-4962-8364-e0438b0576e5
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:praticien:links'
+            additional: {  }
+            weight: 1
+        third_party_settings: {  }
+id: node.praticien.teaser
+targetEntityType: node
+bundle: praticien
+mode: teaser
+content:
+  field_photo:
+    type: entity_reference_entity_view
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      view_mode: listing
+      link: false
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_calendarly_token: true
+  field_expertise: true
+  field_langue: true
+  field_type: true
+  langcode: true

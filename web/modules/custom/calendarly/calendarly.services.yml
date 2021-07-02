@@ -1,0 +1,4 @@
+services:
+  calendarly.fetcher:
+    class: Drupal\calendarly\CalendarlyFetcher
+    arguments: ['@messenger']

@@ -1,0 +1,213 @@
+uuid: a128e20c-2fac-41aa-933a-8948c486d0ea
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.base_field_override.node.praticien.title
+    - core.entity_view_mode.node.full
+    - field.field.node.praticien.body
+    - field.field.node.praticien.field_calendarly_token
+    - field.field.node.praticien.field_expertise
+    - field.field.node.praticien.field_langue
+    - field.field.node.praticien.field_photo
+    - field.field.node.praticien.field_type
+    - node.type.praticien
+  module:
+    - calendarly
+    - field_layout
+    - layout_builder
+    - layout_discovery
+    - options
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          column_widths: 25-75
+        components:
+          5c22b242-d51b-4f55-b259-236eff14a66f:
+            uuid: 5c22b242-d51b-4f55-b259-236eff14a66f
+            region: second
+            configuration:
+              id: 'field_block:node:praticien:title'
+              label: 'Nom et Prénom'
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: above
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 1
+          09b58f4e-23c3-43bc-96d5-2a9a2c380b1a:
+            uuid: 09b58f4e-23c3-43bc-96d5-2a9a2c380b1a
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:praticien:field_langue'
+              formatter:
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+                type: list_default
+            additional: {  }
+            weight: 4
+          c47f95cc-a7a2-4230-b1e9-26a7192c1f0e:
+            uuid: c47f95cc-a7a2-4230-b1e9-26a7192c1f0e
+            region: first
+            configuration:
+              id: 'field_block:node:praticien:field_photo'
+              label: Photo
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_entity_view
+                settings:
+                  view_mode: full
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 1
+          96941c4f-5207-48e6-a7f5-4bc445204fe2:
+            uuid: 96941c4f-5207-48e6-a7f5-4bc445204fe2
+            region: second
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:praticien:body'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+            additional: {  }
+            weight: 2
+          bc909515-240b-4083-a014-07d0a4486d7a:
+            uuid: bc909515-240b-4083-a014-07d0a4486d7a
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:praticien:field_expertise'
+              formatter:
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+                type: list_default
+            additional: {  }
+            weight: 3
+          2d1b2a38-01d5-4e20-b21d-85fe150ca09d:
+            uuid: 2d1b2a38-01d5-4e20-b21d-85fe150ca09d
+            region: first
+            configuration:
+              id: 'field_block:node:praticien:field_type'
+              label: Type
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: above
+                type: list_default
+                settings: {  }
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 2
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          8316626e-074e-42d2-b1fa-aa9b65c8f9d2:
+            uuid: 8316626e-074e-42d2-b1fa-aa9b65c8f9d2
+            region: content
+            configuration:
+              id: 'field_block:node:praticien:field_calendarly_token'
+              label: 'Calendarly Token'
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: calendarly_widget
+                settings: {  }
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+    allow_custom: false
+id: node.praticien.full
+targetEntityType: node
+bundle: praticien
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_calendarly_token:
+    weight: 5
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: calendarly_widget
+    region: content
+  field_expertise:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_langue:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_photo:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: full
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_type: true
+  langcode: true
