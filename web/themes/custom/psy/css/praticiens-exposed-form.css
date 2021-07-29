@@ -1,19 +1,2 @@
-#block-exposedformpraticienspage-1 h2{
-  font-weight: bold;
-}
-
-#block-exposedformpraticienspage-1 .form-checkboxes input:checked + label{
-  font-weight: bold;
-  color:#524fa0;
-}
-
-#block-exposedformpraticienspage-1{
-  border-radius: 10px;
-  background-color: white;
-  margin-top: 0px;
-  border: solid #F0F0F0 1px;
-}
-
-#block-exposedformpraticienspage-1 fieldset{
-  clear: both;
-}
+#block-exposedformpraticienspage-1 h2{font-weight:700}#block-exposedformpraticienspage-1 .form-checkboxes input:checked+label{font-weight:700;color:#524fa0}#block-exposedformpraticienspage-1{border-radius:10px;background-color:#fff;margin-top:0;border:solid #f0f0f0 1px}#block-exposedformpraticienspage-1 fieldset{clear:both}
+/*# sourceMappingURL=../css/praticiens-exposed-form.css.map */

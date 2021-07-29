@@ -1,0 +1,23 @@
+.field--name-field-type .field__item,
+.field--name-field-langue .field__item,
+.field--name-field-expertise .field__item{
+  background-color: #dfc7f2;
+  padding: 1px 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+  display: block;
+  clear: both;
+  width: max-content;
+  max-width: 290px;
+}
+
+ .field--name-field-type .field__label,
+ .field--name-field-langue .field__label,
+ .field--name-field-expertise .field__label{
+   margin-bottom: 10px;
+ }
+
+ .field--name-title{
+   font-size: xxx-large;
+   color: #524fa0;
+ }
