@@ -1,0 +1,27 @@
+{
+  "name": "gulp-for-CDP",
+  "version": "1.0.0",
+  "description": "Gulp for Club de Paris",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browserslist": "^4.11.0",
+    "caniuse-lite": "^1.0.30001038"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ludovic FRANCOIS",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%",
+    "ie 9"
+  ]
+}

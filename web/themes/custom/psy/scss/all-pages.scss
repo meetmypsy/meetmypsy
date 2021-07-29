@@ -1,0 +1,64 @@
+#header{
+  background: none;
+  background-color: #ffffff;
+}
+.site-branding__text {
+  padding-top: 6px;
+}
+.site-branding__text .site-branding__slogan,
+.site-branding__text .site-branding__name a{
+  color: black;
+  text-transform: uppercase;
+}
+
+#block-rdvblock a{
+  color: #524fa0;
+}
+
+#block-rdvblock{
+  font-size: x-large;
+}
+
+body {
+font-family: lato, arial, sans-serif;
+}
+
+#block-footerblock{
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+footer.site-footer{
+  padding: 0;
+  margin-top: 0;
+}
+.site-footer__bottom {
+  margin-top: 0;
+}
+
+#main-wrapper .layout-main {
+  margin-bottom: 0;
+}
+
+.site-footer .content {
+  font-size: 15px;
+}
+.site-footer__bottom .content {
+  padding-top: 20px;
+}
+
+.region-secondary-menu .menu{
+  display:none;
+}
+
+.region-header .block:not(.site-branding) {
+  margin: 20px 0 0 0;
+  height: 30px;
+}
+
+@media (min-width: 461px){
+  .region-header .site-branding {
+    height: 68px;
+  }
+}

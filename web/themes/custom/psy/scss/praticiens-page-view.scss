@@ -1,0 +1,50 @@
+.view-praticiens .views-col {
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 15px;
+  border: solid #F0F0F0 1px;
+  padding: 10px;
+  height: 500px;
+  width: 21% !important;
+}
+
+.view-praticiens .views-row {
+  margin-bottom: 10px;
+}
+
+.view-praticiens .views-view-grid .views-row {
+  border-bottom: none;
+}
+
+#main {
+  background-color: #fafbff;
+}
+
+.view-praticiens .view-empty {
+  clear: both;
+}
+
+#block-psy-page-title h1 {
+  text-align: center;
+  color: #524fa0;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: x-large;
+  float: left;
+}
+
+#block-psy-page-title h1:before {
+  content: url('/themes/custom/psy/images/calendar_check.png');
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+#page-wrapper #page {
+  background: #fafbff;
+}
+
+ul.pager__items {
+  margin-bottom: 40px;
+}
